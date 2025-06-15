@@ -12,7 +12,7 @@ const Projects: React.FC = () => {
       description: 'A comprehensive project management application built with React and Node.js. Features real-time collaboration, task tracking, and team communication tools. Implements user-centered design principles with extensive usability testing.',
       technologies: ['React', 'TypeScript', 'Tailwind CSS'],
       github: 'https://github.com/rkshan/task_master.git',
-      demo: 'https://github.com/rkshan/task_master.git',
+      demo: 'https://task-master-mocha-ten.vercel.app/',
       image: myImage,
       status: 'Completed',
       duration: '2 weeks',
@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
       description: 'A full-stack event management platform that allows users to create, manage, and promote events. Built with HTML,CSS & JavaScript it features a responsive design and robust user authentication. The platform emphasizes user engagement and accessibility.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/rkshan/international_research_conference.git',
-      demo: 'https://github.com/rkshan/international_research_conference.git',
+      demo: 'https://international-research-conference.vercel.app/',
       image: myImage2,
       status: 'Completed',
       duration: '1 month',
@@ -192,21 +192,8 @@ const Projects: React.FC = () => {
           ))}
         </div>
 
-        {/* Call to Action */}
-        <div className="text-center mt-16 bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8">
-          <h2 className="text-2xl font-bold text-slate-800 mb-4">
-            Interested in Collaborating?
-          </h2>
-          <p className="text-slate-600 mb-6">
-            I'm always excited to work on new projects and explore innovative solutions.
-          </p>
-          <a
-            href="/contact"
-            className="inline-flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-medium transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300"
-          >
-            <span>Get In Touch</span>
-          </a>
-        </div>
+      
+        
       </div>
     </div>
   );
